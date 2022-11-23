@@ -1,0 +1,15 @@
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.csproj.AssemblyReference.cache
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.AssemblyInfoInputs.cache
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.AssemblyInfo.cs
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.csproj.CoreCompileInputs.cache
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\bin\Debug\net6.0\Desafio-Matematica.exe
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\bin\Debug\net6.0\Desafio-Matematica.deps.json
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\bin\Debug\net6.0\Desafio-Matematica.runtimeconfig.json
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\bin\Debug\net6.0\Desafio-Matematica.dll
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\bin\Debug\net6.0\Desafio-Matematica.pdb
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.dll
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\refint\Desafio-Matematica.dll
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.pdb
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\Desafio-Matematica.genruntimeconfig.cache
+C:\Users\judy.santos\Documents\ByteBank-ADM\Desafio-Matematica\obj\Debug\net6.0\ref\Desafio-Matematica.dll
