@@ -3,7 +3,7 @@
 using Desafio_Matematica;
 using System.ComponentModel;
 
-Console.WriteLine("Operaçoes Básica");
+Console.WriteLine("Operaçoes Básica - Desafio Matemática");
 
 Operacoes operacoes = new Operacoes();
 
