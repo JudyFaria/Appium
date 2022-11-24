@@ -1,0 +1,5 @@
+C:\Users\judy.santos\source\repos\ByteBank\FastFood\obj\Debug\net6.0\FastFood.csproj.AssemblyReference.cache
+C:\Users\judy.santos\source\repos\ByteBank\FastFood\obj\Debug\net6.0\FastFood.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\judy.santos\source\repos\ByteBank\FastFood\obj\Debug\net6.0\FastFood.AssemblyInfoInputs.cache
+C:\Users\judy.santos\source\repos\ByteBank\FastFood\obj\Debug\net6.0\FastFood.AssemblyInfo.cs
+C:\Users\judy.santos\source\repos\ByteBank\FastFood\obj\Debug\net6.0\FastFood.csproj.CoreCompileInputs.cache

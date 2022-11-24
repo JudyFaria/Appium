@@ -1,0 +1,5 @@
+C:\Users\judy.santos\source\repos\ByteBank\p1-ValoresPadrões\obj\Debug\net6.0\p1-ValoresPadrões.csproj.AssemblyReference.cache
+C:\Users\judy.santos\source\repos\ByteBank\p1-ValoresPadrões\obj\Debug\net6.0\p1-ValoresPadrões.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\judy.santos\source\repos\ByteBank\p1-ValoresPadrões\obj\Debug\net6.0\p1-ValoresPadrões.AssemblyInfoInputs.cache
+C:\Users\judy.santos\source\repos\ByteBank\p1-ValoresPadrões\obj\Debug\net6.0\p1-ValoresPadrões.AssemblyInfo.cs
+C:\Users\judy.santos\source\repos\ByteBank\p1-ValoresPadrões\obj\Debug\net6.0\p1-ValoresPadrões.csproj.CoreCompileInputs.cache

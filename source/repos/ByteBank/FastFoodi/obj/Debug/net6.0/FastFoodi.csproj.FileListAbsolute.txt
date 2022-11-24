@@ -1,0 +1,15 @@
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.csproj.AssemblyReference.cache
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.AssemblyInfoInputs.cache
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.AssemblyInfo.cs
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.csproj.CoreCompileInputs.cache
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\bin\Debug\net6.0\FastFoodi.exe
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\bin\Debug\net6.0\FastFoodi.deps.json
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\bin\Debug\net6.0\FastFoodi.runtimeconfig.json
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\bin\Debug\net6.0\FastFoodi.dll
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\bin\Debug\net6.0\FastFoodi.pdb
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.dll
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\refint\FastFoodi.dll
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.pdb
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\FastFoodi.genruntimeconfig.cache
+C:\Users\judy.santos\source\repos\ByteBank\FastFoodi\obj\Debug\net6.0\ref\FastFoodi.dll
