@@ -1,0 +1,241 @@
+2022-12-01 12:30:44:153 [Appium] Welcome to Appium v1.22.3
+2022-12-01 12:30:44:155 [Appium] Non-default server args:
+2022-12-01 12:30:44:155 [Appium]   address: 127.0.0.1
+2022-12-01 12:30:44:155 [Appium]   logFile: C:\Users\judy.santos\Documents\RunNodePad\RunNodePad\bin\Debug\Documents\RunNotePad\RegistroSemIniciarWAD\registro.txt
+2022-12-01 12:30:44:190 [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2022-12-01 12:30:44:885 [HTTP] --> GET /wd/hub/status
+2022-12-01 12:30:44:886 [HTTP] {}
+2022-12-01 12:30:44:888 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-12-01 12:30:44:890 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-12-01 12:30:44:897 [HTTP] <-- GET /wd/hub/status 200 10 ms - 68
+2022-12-01 12:30:44:898 [HTTP] 
+2022-12-01 12:30:44:913 [HTTP] --> GET /wd/hub/status
+2022-12-01 12:30:44:913 [HTTP] {}
+2022-12-01 12:30:44:913 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-12-01 12:30:44:914 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-12-01 12:30:44:915 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2022-12-01 12:30:44:915 [HTTP] 
+2022-12-01 12:30:45:007 [HTTP] Request idempotency key: 305dcbb7-ac35-4d64-81ee-76615b6908f7
+2022-12-01 12:30:45:021 [HTTP] --> POST /wd/hub/session
+2022-12-01 12:30:45:021 [HTTP] {"desiredCapabilities":{"app":"C:\\Windows\\System32\\calc.exe","platformName":"Windows"},"capabilities":{"firstMatch":[{"platformName":"Windows"}]}}
+2022-12-01 12:30:45:022 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Windows\\System32\\calc.exe","platformName":"Windows"},null,{"firstMatch":[{"platformName":"Windows"}]}]
+2022-12-01 12:30:45:022 [BaseDriver] Event 'newSessionRequested' logged at 1669897845022 (09:30:45 GMT-0300 (Horário Padrão de Brasília))
+2022-12-01 12:30:45:026 [Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app"]
+2022-12-01 12:30:45:026 [Appium] Trying to fix W3C capabilities by merging them with JSONWP caps
+2022-12-01 12:30:45:027 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-12-01 12:30:45:027 [BaseDriver]   app
+2022-12-01 12:30:45:068 [Appium] Appium v1.22.3 creating new WindowsDriver (v1.19.1) session
+2022-12-01 12:30:45:069 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-12-01 12:30:45:070 [BaseDriver] Creating session with W3C capabilities: {
+2022-12-01 12:30:45:070 [BaseDriver]   "alwaysMatch": {
+2022-12-01 12:30:45:070 [BaseDriver]     "appium:app": "C:\\Windows\\System32\\calc.exe",
+2022-12-01 12:30:45:070 [BaseDriver]     "platformName": "Windows"
+2022-12-01 12:30:45:070 [BaseDriver]   },
+2022-12-01 12:30:45:070 [BaseDriver]   "firstMatch": [
+2022-12-01 12:30:45:070 [BaseDriver]     {}
+2022-12-01 12:30:45:070 [BaseDriver]   ]
+2022-12-01 12:30:45:070 [BaseDriver] }
+2022-12-01 12:30:45:072 [BaseDriver] Session created with session id: d327810f-d5f0-4da3-bb31-7482f413b7c8
+2022-12-01 12:30:45:076 [WinAppDriver] WinAppDriver exists, but the checksum did not match. Was it replaced manually?
+2022-12-01 12:30:45:083 [WinAppDriver] Spawning 'C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe' with args: ["4724/wd/hub"]
+2022-12-01 12:30:45:111 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-12-01 12:30:45:113 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
+2022-12-01 12:30:45:142 [WinAppDriver] Windows Application Driver listening for requests at: http://127.0.0.1:4724/wd/hub
+2022-12-01 12:30:45:142 [WinAppDriver] Press ENTER to exit.
+2022-12-01 12:30:45:144 [WinAppDriver] ==========================================
+2022-12-01 12:30:45:144 [WinAppDriver] GET /wd/hub/status HTTP/1.1
+2022-12-01 12:30:45:144 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:45:144 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:45:144 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:45:145 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:45:145 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:45:148 [WD Proxy] Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.22000"}}
+2022-12-01 12:30:45:148 [WinAppDriver] Starting WinAppDriver session. Will timeout in '20000' ms.
+2022-12-01 12:30:45:149 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:30:45:149 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:45:152 [WinAppDriver] HTTP/1.1 200 OK
+2022-12-01 12:30:45:152 [WinAppDriver] Content-Length: 146
+2022-12-01 12:30:45:152 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:30:45:152 [WinAppDriver] 
+2022-12-01 12:30:45:152 [WinAppDriver] {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.22000"}}
+2022-12-01 12:30:45:152 [WinAppDriver] ==========================================
+2022-12-01 12:30:45:152 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:30:45:153 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:45:153 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:45:153 [WinAppDriver] Content-Length: 90
+2022-12-01 12:30:45:153 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:45:153 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:45:153 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:45:153 [WinAppDriver] 
+2022-12-01 12:30:45:153 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:47:630 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:30:47:630 [WinAppDriver] Content-Length: 168
+2022-12-01 12:30:47:631 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:30:47:631 [WinAppDriver] 
+2022-12-01 12:30:47:631 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 14044"}}
+2022-12-01 12:30:47:632 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 14044"}}
+2022-12-01 12:30:47:632 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:30:47:632 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 14044', attempt = '1' from 'undefined'
+2022-12-01 12:30:48:146 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:30:48:147 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:48:150 [WinAppDriver] ==========================================
+2022-12-01 12:30:48:150 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:30:48:150 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:48:150 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:48:150 [WinAppDriver] Content-Length: 90
+2022-12-01 12:30:48:150 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:48:151 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:48:151 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:48:151 [WinAppDriver] 
+2022-12-01 12:30:48:151 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:50:017 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:30:50:017 [WinAppDriver] Content-Length: 168
+2022-12-01 12:30:50:017 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:30:50:017 [WinAppDriver] 
+2022-12-01 12:30:50:017 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 17400"}}
+2022-12-01 12:30:50:018 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 17400"}}
+2022-12-01 12:30:50:018 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:30:50:018 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 17400', attempt = '2' from 'undefined'
+2022-12-01 12:30:50:531 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:30:50:531 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:50:538 [WinAppDriver] ==========================================
+2022-12-01 12:30:50:538 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:30:50:539 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:50:539 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:50:539 [WinAppDriver] Content-Length: 90
+2022-12-01 12:30:50:539 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:50:540 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:50:540 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:50:540 [WinAppDriver] 
+2022-12-01 12:30:50:541 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:52:608 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:30:52:609 [WinAppDriver] Content-Length: 168
+2022-12-01 12:30:52:609 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:30:52:609 [WinAppDriver] 
+2022-12-01 12:30:52:609 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 19792"}}
+2022-12-01 12:30:52:611 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 19792"}}
+2022-12-01 12:30:52:611 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:30:52:611 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 19792', attempt = '3' from 'undefined'
+2022-12-01 12:30:53:118 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:30:53:120 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:53:126 [WinAppDriver] ==========================================
+2022-12-01 12:30:53:127 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:30:53:127 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:53:128 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:53:128 [WinAppDriver] Content-Length: 90
+2022-12-01 12:30:53:129 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:53:129 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:53:130 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:53:130 [WinAppDriver] 
+2022-12-01 12:30:53:131 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:55:206 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 25032"}}
+2022-12-01 12:30:55:206 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:30:55:207 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 25032', attempt = '4' from 'undefined'
+2022-12-01 12:30:55:208 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:30:55:208 [WinAppDriver] Content-Length: 168
+2022-12-01 12:30:55:208 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:30:55:208 [WinAppDriver] 
+2022-12-01 12:30:55:209 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 25032"}}
+2022-12-01 12:30:55:712 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:30:55:714 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:55:717 [WinAppDriver] ==========================================
+2022-12-01 12:30:55:717 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:30:55:717 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:55:717 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:55:717 [WinAppDriver] Content-Length: 90
+2022-12-01 12:30:55:718 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:55:718 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:55:718 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:55:718 [WinAppDriver] 
+2022-12-01 12:30:55:718 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:57:780 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 24428"}}
+2022-12-01 12:30:57:781 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:30:57:782 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 24428', attempt = '5' from 'undefined'
+2022-12-01 12:30:57:783 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:30:57:783 [WinAppDriver] Content-Length: 168
+2022-12-01 12:30:57:783 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:30:57:784 [WinAppDriver] 
+2022-12-01 12:30:57:784 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 24428"}}
+2022-12-01 12:30:58:289 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:30:58:290 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:30:58:292 [WinAppDriver] ==========================================
+2022-12-01 12:30:58:292 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:30:58:292 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:30:58:292 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:30:58:292 [WinAppDriver] Content-Length: 90
+2022-12-01 12:30:58:292 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:30:58:292 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:30:58:293 [WinAppDriver] User-Agent: appium
+2022-12-01 12:30:58:293 [WinAppDriver] 
+2022-12-01 12:30:58:293 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:31:00:543 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 17732"}}
+2022-12-01 12:31:00:544 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:31:00:544 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 17732', attempt = '6' from 'undefined'
+2022-12-01 12:31:00:545 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:31:00:546 [WinAppDriver] Content-Length: 168
+2022-12-01 12:31:00:546 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:31:00:546 [WinAppDriver] 
+2022-12-01 12:31:00:546 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 17732"}}
+2022-12-01 12:31:01:058 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:31:01:059 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:31:01:061 [WinAppDriver] ==========================================
+2022-12-01 12:31:01:062 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:31:01:062 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:31:01:062 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:31:01:062 [WinAppDriver] Content-Length: 90
+2022-12-01 12:31:01:063 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:31:01:063 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:31:01:063 [WinAppDriver] User-Agent: appium
+2022-12-01 12:31:01:063 [WinAppDriver] 
+2022-12-01 12:31:01:063 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:31:03:259 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 25040"}}
+2022-12-01 12:31:03:260 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:31:03:260 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 25040', attempt = '7' from 'undefined'
+2022-12-01 12:31:03:261 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:31:03:261 [WinAppDriver] Content-Length: 168
+2022-12-01 12:31:03:261 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:31:03:262 [WinAppDriver] 
+2022-12-01 12:31:03:262 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 25040"}}
+2022-12-01 12:31:03:766 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-12-01 12:31:03:766 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:31:03:772 [WinAppDriver] ==========================================
+2022-12-01 12:31:03:773 [WinAppDriver] POST /wd/hub/session HTTP/1.1
+2022-12-01 12:31:03:774 [WinAppDriver] Accept: application/json, */*
+2022-12-01 12:31:03:774 [WinAppDriver] Connection: keep-alive
+2022-12-01 12:31:03:774 [WinAppDriver] Content-Length: 90
+2022-12-01 12:31:03:775 [WinAppDriver] Content-Type: application/json; charset=utf-8
+2022-12-01 12:31:03:775 [WinAppDriver] Host: 127.0.0.1:4724
+2022-12-01 12:31:03:776 [WinAppDriver] User-Agent: appium
+2022-12-01 12:31:03:776 [WinAppDriver] 
+2022-12-01 12:31:03:777 [WinAppDriver] {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Windows\\System32\\calc.exe"}}
+2022-12-01 12:31:05:995 [WinAppDriver] HTTP/1.1 500 Internal Error
+2022-12-01 12:31:05:995 [WinAppDriver] Content-Length: 168
+2022-12-01 12:31:05:996 [WinAppDriver] Content-Type: application/json
+2022-12-01 12:31:05:996 [WinAppDriver] 
+2022-12-01 12:31:05:996 [WinAppDriver] {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 10700"}}
+2022-12-01 12:31:05:997 [WD Proxy] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Windows\\System32\\calc.exe, and processId: 10700"}}
+2022-12-01 12:31:05:999 [W3C] Matched W3C error code 'unknown error' to UnknownError
+2022-12-01 12:31:06:000 [WinAppDriver] Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 10700', attempt = '8' from 'undefined'
+2022-12-01 12:31:06:001 [WinAppDriver] timeoutError was Condition unmet after 20852 ms. Timing out.
+2022-12-01 12:31:06:001 [WinAppDriver] Deleting WinAppDriver session
+2022-12-01 12:31:06:044 [WinAppDriver] WinAppDriver exited with code null, signal SIGTERM
+2022-12-01 12:31:06:046 [BaseDriver] Event 'newSessionStarted' logged at 1669897866046 (09:31:06 GMT-0300 (Horário Padrão de Brasília))
+2022-12-01 12:31:06:125 [W3C] Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Windows\System32\calc.exe, and processId: 10700
+2022-12-01 12:31:06:125 [W3C]     at errorFromW3CJsonCode (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:780:25)
+2022-12-01 12:31:06:126 [W3C]     at ProxyRequestError.getActualError (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:663:14)
+2022-12-01 12:31:06:126 [W3C]     at WADProxy.command (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:272:19)
+2022-12-01 12:31:06:126 [W3C]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-12-01 12:31:06:126 [W3C]     at condFn (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\winappdriver.js:182:9)
+2022-12-01 12:31:06:127 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:138:20)
+2022-12-01 12:31:06:127 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:127 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:127 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:128 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:128 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:128 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:128 [W3C]     at spin (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:148:14)
+2022-12-01 12:31:06:129 [W3C]     at waitForCondition (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\asyncbox\lib\asyncbox.js:155:10)
+2022-12-01 12:31:06:129 [W3C]     at WinAppDriver._startSession (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\winappdriver.js:192:7)
+2022-12-01 12:31:06:129 [W3C]     at WinAppDriver.start (C:\Users\judy.santos\AppData\Roaming\npm\node_modules\appium\node_modules\appium-windows-driver\lib\winappdriver.js:167:5)
+2022-12-01 12:31:06:133 [HTTP] <-- POST /wd/hub/session 500 21109 ms - 2728
+2022-12-01 12:31:06:133 [HTTP] 
